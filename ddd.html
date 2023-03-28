@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ddd</title>
+  <style>
+
+    .big-div{
+      height: 400px;
+      width: 400px;
+      background: pink;
+    }
+
+    .small-div{
+        height: 200px;
+        width: 200px;
+        background: #060669;
+    }
+  </style>
+  <script src="js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<div style="display: flex">
+    <div class="big-div" >
+        aaaaaa
+    </div>
+
+    <div class="small-div">
+        <ul>
+            <li>aa</li>
+            <li>bb</li>
+            <li>cc</li>
+            <li>dd</li>
+        </ul>
+    </div>
+</div>
+
+<script>
+  // $(document).ready(function (){
+  //   $('div').hide();
+  // })
+
+  $(function (){
+    // $('div').hide();
+    // alert('杭引')
+      $('.big-div');
+      console.dir($('.big-div'));
+      // $('.big-div').hide();
+      $('.big-div').css('font-size','50px');
+      $('.small-div').css({"margin-left":'20px','text-align':'center'});
+      $('ul>li').css('color','white');
+      $('ul>li:first').css('color','black');
+      $('ul>li:last').css('font-size','50px');
+      $('ul>li:odd').css('color','pink');
+
+  })
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bbb.css">
+</head>
+<body>
+<div class="container">
+    <div class="list">
+        <div class="item" id='1'>1</div>
+        <div class="item" id='2'>2</div>
+        <div class="item" id='3'>3</div>
+        <div class="item" id='4'>4</div>
+        <div class="item" id='5'>5</div>
+        <div class="item" id='6'>6</div>
+        <div class="item" id='7'>6</div>
+    </div>
+    <div class="menu">
+        <div><a href="#1">item 1</a></div>
+        <div><a href="#2">item 2</a></div>
+        <div><a href="#3">item 3</a></div>
+        <div><a href="#4">item 4</a></div>
+        <div><a href="#5">item 5</a></div>
+        <div><a href="#6">item 6</a></div>
+        <div><a href="#6">item 7</a></div>
+    </div>
+</div>
+
+<script>
+    window.onscroll = function () {
+        //scrollTop就是触发滚轮事件时滚轮的高度
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        console.log("滚动距离" + scrollTop);
+        const list = document.querySelectorAll('.menu a');
+        if (scrollTop < 510) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+            list[0].classList.add('active')
+            // $('#1').addClass('active').siblings('');
+        } else if (scrollTop > 550 && scrollTop < 1090) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+            list[1].classList.add('active')
+        } else if (scrollTop > 1090 && scrollTop < 1645) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+            list[2].classList.add('active')
+        } else if (scrollTop > 1645 && scrollTop < 2210) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+            list[3].classList.add('active')
+        } else if (scrollTop > 2210 && scrollTop < 2780) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+            list[4].classList.add('active')
+        } else if (scrollTop > 2780&&scrollTop<3000) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+            list[5].classList.add('active')
+        } else if (scrollTop > 3061&&scrollTop<4000) {
+            list.forEach(item => {
+                item.classList = [];
+            })
+        }
+    }
+
+</script>
+
+</body>
+
+</html>

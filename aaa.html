@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link type="text/css" href="./css/aaa.css" rel="stylesheet" />
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+            $(document).on( 'scroll', function(){
+                var h = $(window).scrollTop();
+                var maxh = $(document).height();
+                var currh = $(window).height();
+                var num = Math.ceil((h-100)/320);
+                var str = ".peo_box"+num;
+                if(h>100 && h<(maxh-currh-1)){
+                    $(str).addClass('lishow');
+                }
+                else if(h>=(maxh-currh-1)){
+                    $('.peo_box').addClass('lishow');
+                }
+                else{
+                    $('.peo_box').removeClass('lishow');
+                }
+
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+
+
+
+<div class="container">
+    <a href="#name1">
+        <p style="font-size: 20px;color: #0c3de0">name1</p>
+    </a>
+    <a href="#name2">
+        <p style="font-size: 20px;color: #0c3de0">name2</p>
+    </a>
+    <a href="#name3">
+        <p style="font-size: 20px;color: #0c3de0">name3</p>
+    </a>
+    <a href="#name5">
+        <p style="font-size: 20px;color: #0c3de0">name5</p>
+    </a>
+    <div class="top"></div>
+    <div class="bottom">
+        <div class="title">List</div>
+        <div>
+            <ul>
+                <li style="height:320px">
+                    <div class="peo_box1 peo_box" >
+
+                        <div class="content" >
+                            <h5 class="name"  id="name1">name1</h5>
+                            <p class="p1" >BiliBili is a well-known video barrage website in China, where there are
+                                the most timely animation, the best ACG atmosphere and the most creative up owner. You can find a lot of fun here</p>
+                        </div>
+                        <img class="picture" src="image/nxhm.png" alt="">
+                    </div>
+                </li>
+
+                <li style="height:320px">
+                    <div class="peo_box2 peo_box">
+                        <img class="picture" src="image/nxhm.png" alt="">
+                        <div class="content" >
+                            <h5 class="name" id="name2">name2</h5>
+                            <p class="p2">BiliBili is a well-known video barrage website in China, where there are the most timely animation, the best ACG atmosphere and the most creative up owner. You can find a lot of fun here</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li style="height:320px">
+                    <div class="peo_box3 peo_box">
+
+                        <div class="content" >
+                            <h5 class="name" id="name3">name3</h5>
+                            <p class="p3">BiliBili is a well-known video barrage website in China, where there are the most timely animation, the best ACG atmosphere and the most creative up owner. You can find a lot of fun here</p>
+                        </div>
+                        <img class="picture" src="image/nxhm.png" alt="">
+                    </div>
+                </li>
+
+                <li style="height:320px">
+                    <div class="peo_box4 peo_box">
+                        <img class="picture" src="image/nxhm.png" alt="">
+                        <div class="content" >
+                            <h5 class="name" id="name4">name4</h5>
+                            <p class="p4">BiliBili is a well-known video barrage website in China, where there are the most timely animation, the best ACG atmosphere and the most creative up owner. You can find a lot of fun here</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li style="height:320px">
+                    <div class="peo_box5 peo_box" >
+
+                        <div class="content" >
+                            <h5 class="name" id="name5">name5</h5>
+                            <p class="p5">BiliBili is a well-known video barrage website in China, where there are the most timely animation, the best ACG atmosphere and the most creative up owner. You can find a lot of fun here</p>
+                        </div>
+                        <img class="picture" src="image/nxhm.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
