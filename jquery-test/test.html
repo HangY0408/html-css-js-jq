@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+
+</head>
+
+<style>
+   .box{
+       height: 1000px;
+       width: 1000px;
+       background: pink;
+       margin: 0 auto;
+       /*display: none;*/
+       /*overflow: hidden;*/
+       /*display: block;*/
+   }
+   .left{
+       height: 100%;
+       width: 50%;
+       background: #060669;
+       float: left;
+       display: inline-block;
+   }
+   .content1{
+       height: 100%;
+       width: 50%;
+       background: bisque;
+       float: left;
+       /*display: none;*/
+       /*display: none;*/
+       overflow: hidden;
+   }
+   .left li{
+       height: 20%;
+       font-size: 30px;
+       text-align: center;
+
+   }
+   .content1 img{
+       height: 1000px;
+       width: 500px;
+       float: left;
+   }
+
+
+</style>
+<body>
+
+<div class="box">
+
+    <div class="left" id="left1">
+        <url>
+            <li><a href="">旺仔</a></li>
+            <li><a href="">哇哈哈</a></li>
+            <li><a href="">农夫山泉</a></li>
+            <li><a href="">百岁山</a></li>
+            <li><a href="">怡宝</a></li>
+        </url>
+
+    </div>
+    <div class="content1" id="content">
+        <div><a href=""><img src="../image/q1.png" alt="" ></a></div>
+        <div><a href=""><img src="../image/q2.png" alt=""></a></div>
+        <div><a href=""><img src="../image/q3.png" alt=""></a></div>
+        <div><a href=""><img src="../image/q4.png" alt=""></a></div>
+        <div><a href=""><img src="../image/a.png" alt=""> </a></div>
+    </div>
+
+</div>
+
+
+</body>
+<script>
+    $(function (){
+        $("#left1 li").mouseover(function (){
+            var index = $(this).index();
+            console.log(index);
+            $('#content div').eq(index).show().siblings().hide();;
+        })
+    })
+
+</script>
+</html>

@@ -1,0 +1,138 @@
+.bhl{
+    width: 100%;
+    height: 650px;
+    /*background: url("../bhl-img/star.png") left no-repeat;*/
+    float: left;
+}
+.bhl-main{
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    /*background: blueviolet;*/
+}
+.bhl-top{
+    height: 100px;
+    width: 100%;
+    background: url("../bhl-img/bhl-title.png") center no-repeat;
+
+}
+.bhl-top h1{
+    font-size: 40px;
+    line-height: 100px;
+    color: #16fdfe;
+}
+.bhl-img{
+    width: 100%;
+    height: 550px;
+    margin-top: 45px;
+    /*background: #16fdfe;*/
+}
+.bhl-img img{
+    margin: 40px auto;
+}
+.bhl-foot{
+
+    height: 430px;
+    width: 100%;
+    /*background: #90a0b6;*/
+}
+.foot-left{
+    height: 100%;
+    width: 220px;
+    /*background: pink;*/
+    float: left;
+}
+.left-title{
+    height: 50px;
+    background: url("../image/left-title.png")center no-repeat;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 50px;
+
+}
+.left-title p{
+    font-size: 20px;
+    color: #fc9f01 ;
+    font-weight: 600;
+}
+.foot-center{
+    height: 100%;
+    width: 510px;
+    background: url("../image/center-bhl.png")center no-repeat;
+    float: left;
+    position: relative;
+}
+.foot-center p{
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+}
+.center-1{
+    position: absolute;
+    left: 273px;
+    top: 183px;
+    color: #39efe4;
+}
+.center-2{
+    position: absolute;
+    left: 179px;
+    top: 246px;
+    color: #6c74fc;
+}
+.center-3{
+    position: absolute;
+    left: 275px;
+    top: 303px;
+    color: #00affe;
+}
+.foot-right{
+    width: 230px;
+    height: 100%;
+    /*background: #16fdfe;*/
+    float: left;
+
+}
+.right-top{
+    height: 100px;
+    width: 100%;
+
+}
+.right-top p{
+    text-align: left;
+    color: #75a2d7;
+    line-height: 30px;
+    font-width: 400;
+}
+.right-foot{
+    height: 330px;
+    width: 100%;
+    background: url("../image/right-foot.png") center no-repeat;
+    position: relative;
+}
+.right-foot p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.right-foot .right-p1{
+    position: absolute;
+    top: 40px;
+    left: 70px;
+    color: #16fdfe;
+    font-size: 20px;
+}
+.right-p2{
+    position: absolute;
+    top: 100px;
+    left: 78px;
+}
+.right-p3{
+    position: absolute;
+    top: 150px;
+    left: 90px;
+}
+.right-p4{
+    position: absolute;
+    top: 252px;
+    left: 65px;
+}

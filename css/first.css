@@ -1,0 +1,210 @@
+.header{
+    width: 100%;
+    height: 40px;
+
+
+}
+.index{
+    background: #060669 no-repeat scroll;
+}
+.content{
+    width: 100%;
+    height: 500px;
+
+    align-content: center;
+    vert-align: middle;
+
+
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: plum;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    float: left;
+
+}
+.right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    /*background-color: chartreuse;*/
+}
+.header1{
+    width: 20%;
+    height: 100%;
+}
+.header2{
+    width: 100%;
+    height: 100%;
+}
+.div1{
+    width: 16.66%;
+    float: left;
+    color: aliceblue;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+}
+.img2,.img3{
+    width: 70%;
+    height: 50%;
+    align-content:center;
+}
+.img4{
+    width: 80%;
+    height: 60%;
+    align-content: center;
+
+}
+.img5{
+    width: 80%;
+    height: 60%;
+    align-content: center;
+    vertical-align: center ;
+}
+.zi{
+    width: 89%;
+    height: 30%;
+    /*background-image:linear-gradient(45deg, #b5bad9, #747976);*/
+    background: rgba(10, 10, 10, 0.2);
+    align-content: center;
+    vert-align: middle;
+    margin: 140px 150px 100px;
+
+}
+.zi-1{
+    width: 100%;
+    height: 50%;
+    font-size: 50px;
+    color: aliceblue;
+    align:left;
+}
+
+.zi-2{
+    width: 100%;
+    height: 50%;
+    font-size: 20px;
+    align:left;
+    color: aliceblue;
+
+}
+.bb{
+   width: 24.8%;
+    height: 80%;
+
+
+    float: left;
+}
+.second,.third,.forth,.fifth,.sixth{
+
+    height: 1000px;
+
+}
+.second{
+
+}
+.second-2-1{
+
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.second-2-2{
+    /*background-color:darkorange;*/
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.second-2-2-1{
+    height: 10%;
+    /*background-color: chartreuse;*/
+    color: aliceblue;
+}
+.second-2-2-2{
+    height: 90%;
+    /*background-color: blueviolet;*/
+}
+.second-2-2-2-1{
+    width: 33.33%;
+    /*background-color: darkorange;*/
+    align-content: center;
+    valign:middle;
+    float: left;
+    height: 100%;
+}
+.third{
+
+}
+.third-1,.third-2{
+    height: 50%;
+}
+.third-1{
+
+}
+.third-1-2{
+    height: 80%;
+    /*background-color: blueviolet;*/
+    float: left;
+}
+.third-1-1{
+    height: 20%;
+
+}
+.third-2{
+    text-align: center;
+    /*background-color: plum;*/
+
+}
+.third-2-1{
+    width: 50%;
+    height: 50%;
+    /*background-color: chartreuse;*/
+    vert-align: middle;
+    float: left;
+
+}
+.forth{
+    /*background-color: blueviolet;*/
+}
+.forth-1,.second-1{
+    height: 20%;
+    /*background-color: pink;*/
+
+}
+.second-2{
+    height: 60%;
+    /*background-color: blueviolet;*/
+}
+.forth-2{
+    height: 80%;
+    /*background-color: blue;*/
+}
+.forth-2-1{
+    width: 33.33%;
+    height: 50%;
+    text-align: center;
+    vert-align: middle;
+    float: left;
+
+}
+.fifth{
+    /*background-color: darkgray;*/
+}
+.fifth-1{
+    height: 15%;
+    /*background-color: chartreuse;*/
+}
+.fifth-2{
+    height: 50%;
+    /*background-color: blue;*/
+}
+.fifth-3{
+    height: 35%;
+    /*background-color: blueviolet;*/
+}
+
